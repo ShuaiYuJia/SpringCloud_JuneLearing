@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-learing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-learing/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider/src/main/resources" charset="UTF-8" />
   </component>
