@@ -41,6 +41,12 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+
+
 <!--        springboot引入openFeign-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

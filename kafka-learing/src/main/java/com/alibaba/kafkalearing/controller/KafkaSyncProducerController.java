@@ -1,6 +1,8 @@
 package com.alibaba.kafkalearing.controller;
 
 import org.apache.kafka.clients.producer.RecordMetadata;
+import org.apache.kafka.common.serialization.StringDeserializer;
+import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
@@ -41,6 +43,7 @@ public class KafkaSyncProducerController {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
+
 
         return "success";
 

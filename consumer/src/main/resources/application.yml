@@ -11,3 +11,8 @@ spring:
     #服务注册名称
     name: service-consumer
 
+  kafka:
+    consumer:
+      group-id: "fufeng"
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
